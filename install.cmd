@@ -15,9 +15,13 @@ start /wait dotnet-5.0.10-console-x86.exe /install /quiet /norestart
 if "%arch%" == "x64" start /wait dotnet-5.0.10-console-x64.exe /install /quiet /norestart
 start /wait dotnet-5.0.10-desktop-x86.exe /install /quiet /norestart
 if "%arch%" == "x64" start /wait dotnet-5.0.10-desktop-x64.exe /install /quiet /norestart
-echo Microsoft .NET Runtime 6.0.3
-start /wait dotnet-6.0.3-console-x86.exe /install /quiet /norestart
-if "%arch%" == "x64" start /wait dotnet-6.0.3-console-x64.exe /install /quiet /norestart
-start /wait dotnet-6.0.3-desktop-x86.exe /install /quiet /norestart
-if "%arch%" == "x64" start /wait dotnet-6.0.3-desktop-x64.exe /install /quiet /norestart
+echo Microsoft .NET Runtime 6.0.9
+start /wait dotnet-6.0.9-console-x86.exe /install /quiet /norestart
+if "%arch%" == "x64" start /wait dotnet-6.0.9-console-x64.exe /install /quiet /norestart
+start /wait dotnet-6.0.9-desktop-x86.exe /install /quiet /norestart
+if "%arch%" == "x64" start /wait dotnet-6.0.9-desktop-x64.exe /install /quiet /norestart
+start /wait dotnet-8.0.7-console-x86.exe /install /quiet /norestart
+if "%arch%" == "x64" start /wait dotnet-8.0.7-console-x64.exe /install /quiet /norestart
+start /wait dotnet-8.0.7-desktop-x86.exe /install /quiet /norestart
+if "%arch%" == "x64" start /wait dotnet-8.0.7-desktop-x64.exe /install /quiet /norestart
 pause
