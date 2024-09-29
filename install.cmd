@@ -20,6 +20,10 @@ start /wait dotnet-6.0.9-console-x86.exe /install /quiet /norestart
 if "%arch%" == "x64" start /wait dotnet-6.0.9-console-x64.exe /install /quiet /norestart
 start /wait dotnet-6.0.9-desktop-x86.exe /install /quiet /norestart
 if "%arch%" == "x64" start /wait dotnet-6.0.9-desktop-x64.exe /install /quiet /norestart
+start /wait dotnet-7.0.20-console-x86.exe /install /quiet /norestart
+if "%arch%" == "x64" start /wait dotnet-7.0.20-console-x64.exe /install /quiet /norestart
+start /wait dotnet-7.0.20-desktop-x86.exe /install /quiet /norestart
+if "%arch%" == "x64" start /wait dotnet-7.0.20-desktop-x64.exe /install /quiet /norestart
 start /wait dotnet-8.0.7-console-x86.exe /install /quiet /norestart
 if "%arch%" == "x64" start /wait dotnet-8.0.7-console-x64.exe /install /quiet /norestart
 start /wait dotnet-8.0.7-desktop-x86.exe /install /quiet /norestart
